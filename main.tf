@@ -19,6 +19,7 @@ provider "hcp" {
 
 provider "azurerm" {
   # Configuration options
+  features {}
 }
 
 
