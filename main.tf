@@ -29,7 +29,7 @@ variable "prefix" {
 
 data "hcp_packer_image" "golden-ubuntu" {
   bucket_name     = "golden-ubuntu"
-  channel         = "latest"
+  channel         = "production"
   cloud_provider  = "azure"
   region          = "East US"
 }
